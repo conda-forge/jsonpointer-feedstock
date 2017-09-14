@@ -14,9 +14,7 @@ Summary: Identify specific nodes in a JSON document (RFC 6901)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jsonpointer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jsonpointer-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jsonpointer-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jsonpointer-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jsonpointer-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jsonpointer-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/jsonpointer-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jsonpointer-feedstock)
 
 Current release info
 ====================
