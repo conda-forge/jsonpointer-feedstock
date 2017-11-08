@@ -35,7 +35,7 @@ about:
   home: https://github.com/stefankoegl/python-json-pointer
   license: BSD 3-Clause
   license_family: BSD
-  license_file: COPYING
+  license_file: LICENSE.txt
   summary: 'Identify specific nodes in a JSON document (RFC 6901)'
   dev_url: https://github.com/stefankoegl/python-json-pointer
   doc_url: https://python-json-pointer.readthedocs.io/en/latest/
