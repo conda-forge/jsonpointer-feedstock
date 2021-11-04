@@ -1,8 +1,7 @@
 {% set name = "jsonpointer" %}
-{% set version = "2.0" %}
+{% set version = "2.2" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "c192ba86648e05fdae4f08a17ec25180a9aef5008d973407b581798a83975362" %}
+{% set hash = "f09f8deecaaa5aea65b5eb4f67ca4e54e1a61f7a11c75085e360fe6feb6a48bf" %}
 {% set build = 0 %}
 
 package:
@@ -12,7 +11,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
@@ -20,7 +19,7 @@ build:
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
@@ -36,7 +35,7 @@ about:
   license: BSD 3-Clause
   license_family: BSD
   license_file: LICENSE.txt
-  summary: 'Identify specific nodes in a JSON document (RFC 6901)'
+  summary: Identify specific nodes in a JSON document (RFC 6901)
   dev_url: https://github.com/stefankoegl/python-json-pointer
   doc_url: https://python-json-pointer.readthedocs.io/en/latest/
 
