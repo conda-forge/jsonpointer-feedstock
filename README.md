@@ -289,6 +289,5 @@ Feedstock Maintainers
 =====================
 
 * [@anguslees](https://github.com/anguslees/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 * [@xhochy](https://github.com/xhochy/)
 
