@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: jsonpointer
-  version: "3.10"
+  version: "3.11"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/jsonpointer-${{ version }}.tar.gz
-  sha256: 69349c0e738c93e9efa501397091f49ad302ae686293effd05d7755c06f88ef0
+  sha256: dac052acf401e2079cd3f4495b334cdaf073d74706992a7b2b6987c9ae2cf73f
 
 build:
   number: 0
